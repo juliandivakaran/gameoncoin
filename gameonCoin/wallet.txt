@@ -1,0 +1,4 @@
+private key is0x7e367c09132e68f14ad345064a36018ab7eaa7614f5437670430950cc2dc1a14
+ password is hello
+
+gameon wallet
