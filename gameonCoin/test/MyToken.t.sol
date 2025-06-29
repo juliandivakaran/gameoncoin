@@ -18,7 +18,7 @@ contract MyTokenTest is Test {
         token = new MyToken("Test Token", "TEST", INITIAL_SUPPLY, owner);
     }
     
-    function testInitialState() public {
+    function testInitialState() public view{
         // Verify token was deployed with correct parameters
         assertEq(token.name(), "Test Token");
         assertEq(token.symbol(), "TEST");
